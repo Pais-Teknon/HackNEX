@@ -1,0 +1,48 @@
+{
+  "scenario": "Campus Perimeter Security",
+  "scenario_description": "Tracks student and staff flow, detects after-hours fence intrusion, and surfaces suspicious loitering.",
+  "statistics": {
+    "total_events": 2,
+    "critical_count": 1,
+    "warning_count": 1,
+    "normal_count": 0,
+    "by_type": {
+      "FALL_INCIDENT": 1,
+      "UNSAFE_SPEED": 1
+    }
+  },
+  "events": [
+    {
+      "event_id": "EVT-1001",
+      "entity_id": "Person #2",
+      "raw_entity_id": 2,
+      "timestamp": "00:01.75",
+      "time_seconds": 1.75,
+      "frame": 22,
+      "duration_seconds": 1.08,
+      "event_type": "FALL_INCIDENT",
+      "action": "FALLEN",
+      "severity": "CRITICAL",
+      "zone": "General Area",
+      "summary": "Person #2: Worker/Person fallen on floor (Torso horizontal, motionless)",
+      "confidence": 0.98,
+      "snapshot": "EVT-1001_person_2.jpg"
+    },
+    {
+      "event_id": "EVT-1002",
+      "entity_id": "Person #2",
+      "raw_entity_id": 2,
+      "timestamp": "00:03.00",
+      "time_seconds": 3.0,
+      "frame": 37,
+      "duration_seconds": 0.25,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #2: Running in restricted corridor (Speed: 190.8 px/s, Limit: 130.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1002_person_2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "video_name": "warehouse_benchmark.mp4",
+  "duration_seconds": 24,
+  "fps": 30,
+  "resolution": [
+    1280,
+    720
+  ],
+  "events": [
+    {
+      "entity_id": 1,
+      "role": "Normal Walker",
+      "behavior": "NORMAL",
+      "action": "WALKING",
+      "start_time": 0.0,
+      "end_time": 22.0
+    },
+    {
+      "entity_id": 2,
+      "role": "Loitering Worker",
+      "behavior": "ABNORMAL",
+      "event_type": "LOITERING",
+      "start_time": 7.0,
+      "end_time": 24.0,
+      "description": "Stationary dwell > 7s in emergency exit corridor"
+    },
+    {
+      "entity_id": 3,
+      "role": "Speeding Sprinter",
+      "behavior": "ABNORMAL",
+      "event_type": "UNSAFE_SPEED",
+      "start_time": 8.0,
+      "end_time": 15.0,
+      "description": "Running in warehouse walkway exceeding safe speed limit"
+    },
+    {
+      "entity_id": 4,
+      "role": "Zone Trespasser",
+      "behavior": "ABNORMAL",
+      "event_type": "RESTRICTED_INTRUSION",
+      "start_time": 12.0,
+      "end_time": 24.0,
+      "description": "Unauthorized worker entry into Forklift Machinery Zone"
+    },
+    {
+      "entity_id": 5,
+      "role": "Fall Casualty",
+      "behavior": "ABNORMAL",
+      "event_type": "FALL_INCIDENT",
+      "start_time": 14.0,
+      "end_time": 24.0,
+      "description": "Worker slipped and collapsed horizontally onto floor"
+    }
+  ]
+}

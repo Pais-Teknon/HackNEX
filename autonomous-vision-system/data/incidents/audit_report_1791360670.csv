@@ -1,0 +1,3 @@
+event_id,entity_id,raw_entity_id,timestamp,time_seconds,frame,duration_seconds,event_type,action,severity,zone,summary,confidence,snapshot
+EVT-1001,Person #1,1,00:01.37,1.38,2,0.14,FALL_INCIDENT,FALLEN,CRITICAL,General Area,"Person #1: Worker/Person fallen on floor (Torso horizontal, motionless)",0.98,EVT-1001_person_1.jpg
+EVT-1002,Person #2,2,00:01.37,1.38,2,0.14,FALL_INCIDENT,FALLEN,CRITICAL,Emergency Egress Corridor,"Person #2: Worker/Person fallen on floor (Torso horizontal, motionless)",0.98,EVT-1002_person_2.jpg

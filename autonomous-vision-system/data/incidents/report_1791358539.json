@@ -1,0 +1,95 @@
+{
+  "scenario": "Warehouse & Industrial Safety",
+  "scenario_description": "Monitors worker locomotion, machinery hazard zones, fall incidents, and prolonged stationary dwell time.",
+  "statistics": {
+    "total_events": 5,
+    "critical_count": 0,
+    "warning_count": 5,
+    "normal_count": 0,
+    "by_type": {
+      "UNSAFE_SPEED": 5
+    }
+  },
+  "events": [
+    {
+      "event_id": "EVT-1001",
+      "entity_id": "Person #1",
+      "raw_entity_id": 1,
+      "timestamp": "00:09.25",
+      "time_seconds": 9.25,
+      "frame": 112,
+      "duration_seconds": 0.5,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #1: Running in restricted corridor (Speed: 285.1 px/s, Limit: 125.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1001_person_1.jpg"
+    },
+    {
+      "event_id": "EVT-1002",
+      "entity_id": "Person #4",
+      "raw_entity_id": 4,
+      "timestamp": "00:25.25",
+      "time_seconds": 25.25,
+      "frame": 304,
+      "duration_seconds": 0.58,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #4: Running in restricted corridor (Speed: 307.1 px/s, Limit: 125.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1002_person_4.jpg"
+    },
+    {
+      "event_id": "EVT-1003",
+      "entity_id": "Person #7",
+      "raw_entity_id": 7,
+      "timestamp": "00:41.41",
+      "time_seconds": 41.42,
+      "frame": 498,
+      "duration_seconds": 0.25,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #7: Running in restricted corridor (Speed: 187.4 px/s, Limit: 125.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1003_person_7.jpg"
+    },
+    {
+      "event_id": "EVT-1004",
+      "entity_id": "Person #8",
+      "raw_entity_id": 8,
+      "timestamp": "00:42.50",
+      "time_seconds": 42.5,
+      "frame": 511,
+      "duration_seconds": 0.58,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #8: Running in restricted corridor (Speed: 186.4 px/s, Limit: 125.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1004_person_8.jpg"
+    },
+    {
+      "event_id": "EVT-1005",
+      "entity_id": "Person #10",
+      "raw_entity_id": 10,
+      "timestamp": "00:57.41",
+      "time_seconds": 57.42,
+      "frame": 690,
+      "duration_seconds": 0.5,
+      "event_type": "UNSAFE_SPEED",
+      "action": "RUNNING",
+      "severity": "WARNING",
+      "zone": "General Area",
+      "summary": "Person #10: Running in restricted corridor (Speed: 164.5 px/s, Limit: 125.0 px/s)",
+      "confidence": 0.75,
+      "snapshot": "EVT-1005_person_10.jpg"
+    }
+  ]
+}
